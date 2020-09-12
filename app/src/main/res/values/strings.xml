@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GADS2020</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submit">Submit</string>
+    <string name="logo_image">logo image</string>
+    <string name="project_submission">Project Submission</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="github_link">Project on GITHUB (link)</string>
+    <string name="cancel_icon">Cancel Icon</string>
+    <string name="confirm_submit">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="project_submission_error">Project submission error</string>
+    <string name="submission_error">Submission not Successful</string>
+    <string name="project_submission_success">Project submission success</string>
+    <string name="submission_success">Submission Successful</string>
+    <string name="top_leader_badge">Top leader badge</string>
+    <string name="toolbar_title">LEADERBOARD</string>
+    <string name="action_back">Action Back</string>
+    <string name="no_connection">No Connection</string>
+    <string name="no_connection_error">Please check your internet connection and try again</string>
+    <string name="retry">Retry</string>
+    <string name="first_name_error">First name is required!</string>
+    <string name="last_name_error">Last name is required!</string>
+    <string name="email_error">Enter a valid email address!</string>
+    <string name="link_error">Project link is required!</string>
+    <string name="state_error">Unknown Configuration</string>
+</resources>

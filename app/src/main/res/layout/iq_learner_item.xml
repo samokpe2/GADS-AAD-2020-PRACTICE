@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clipToPadding="true"
+    app:cardElevation="@dimen/card_elevation"
+    app:cardCornerRadius="@dimen/card_radius"
+    android:layout_margin="@dimen/margin_small"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/topIQLearnerBadge"
+            android:layout_width="@dimen/learner_badge_width"
+            android:layout_height="80dp"
+            tools:src="@drawable/skill_trimmed"
+            android:layout_marginStart="@dimen/margin_small"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            android:contentDescription="@string/top_leader_badge"
+            />
+        <TextView
+            android:id="@+id/topIQLearnerName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="Samuel Okpe"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/iq_margin_top"
+            app:layout_constraintTop_toTopOf="@id/topIQLearnerBadge"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textStyle="bold"
+            android:textSize="@dimen/title_size"
+            app:layout_constraintStart_toEndOf="@id/topIQLearnerBadge"
+            />
+        <TextView
+            android:id="@+id/skillAndCountry"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/country_margin"
+            app:layout_constraintStart_toStartOf="@id/topIQLearnerName"
+            app:layout_constraintEnd_toEndOf="@id/topIQLearnerName"
+            android:layout_marginBottom="@dimen/margin_small"
+            app:layout_constraintTop_toBottomOf="@id/topIQLearnerName"
+            app:layout_constraintBottom_toBottomOf="@id/topIQLearnerBadge"
+            tools:text="223 learning hours, Kenya"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
